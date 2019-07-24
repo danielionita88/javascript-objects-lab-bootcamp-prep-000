@@ -16,6 +16,6 @@ function updateObjectWithKeyAndValues(obj, key, value) {
 }
 
 function deleteFromObjectByKey(obj, key) {
-  delete Obj.key;
-  return Obj;
+  delete obj.key;
+  return obj;
 }
